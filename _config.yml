@@ -1,0 +1,8 @@
+# Build
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .bundle/
+  - vendor/
+repository: Ibcos/product-framework.git
