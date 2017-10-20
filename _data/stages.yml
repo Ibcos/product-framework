@@ -1,5 +1,10 @@
-- name: Pre-assessment
-- name: Scoping
+- name: Assess
+  description: The stage where things are assessed
+- name: Scope
+  description: The stage where scope is created
 - name: Build
-- name: Go to Market
-- name: Maintenance
+  description: The stage where it is built
+- name: Launch
+  description: The stage where we launch it
+- name: Maintain
+  description: The stage where we keep it going
