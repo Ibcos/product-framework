@@ -1,10 +1,30 @@
 - name: Assess
   description: The stage where things are assessed
+  artefacts:
+  - one
+  - two
+  - three
 - name: Scope
   description: The stage where scope is created
+  artefacts:
+  - four
+  - five
+  - six
 - name: Build
   description: The stage where it is built
+  artefacts:
+  - seven
+  - eight
+  - nine
 - name: Launch
   description: The stage where we launch it
+  artefacts:
+  - ten
+  - eleven
+  - twelve
 - name: Maintain
   description: The stage where we keep it going
+  artefacts:
+  - thirteen
+  - fourteen
+  - fifteen

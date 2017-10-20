@@ -21,7 +21,12 @@ layout: default
     
         <div id="{{ stage.name | downcase | replace: ' ', '-' }}" class="collapse {% if forloop.first == true %}show{% endif %}" role="tabpanel" aria-labelledby="{{ stage.name | downcase | replace: ' ', '-' }}-header">
           <div class="card-block">
-            {{ stage.description }}
+            <p>{{ stage.description }}</p>
+            <ul>
+              {% for artefact in stage.artefacts %}
+              <li>{{ artefact }}</li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
